@@ -30,7 +30,7 @@ arduino-cli upload -p /dev/cu.usbserial-XXXX --fqbn esp32:esp32:esp32 \
   --upload-property upload.speed=115200 01_bluetooth
 ```
 
-Thư viện: `ArduinoJson`, `TFT_eSPI` (User_Setup Otto), `Grobot_Animations`, `OttoDIYLib`, `ESP32Servo`, `PubSubClient` (cho MQTT).
+Thư viện: xem `requirements.txt` (TFT_eSPI cần User_Setup pin Otto).
 
 ### MQTT — cấu hình Wi‑Fi
 

@@ -1,0 +1,12 @@
+# Thư viện Arduino — cài bằng:
+#   arduino-cli lib install $(grep -v '^#' requirements.txt | xargs)
+#
+# Board: esp32:esp32 (ESP32 Dev Module)
+# TFT_eSPI: cấu hình User_Setup theo pin Otto (CS22 DC21 MOSI23 SCK18 RST27)
+
+ArduinoJson
+TFT_eSPI
+Grobot_Animations
+OttoDIYLib
+ESP32Servo
+PubSubClient
